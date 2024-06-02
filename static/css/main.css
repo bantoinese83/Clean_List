@@ -1,0 +1,60 @@
+/* Base styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.header h1, .header p {
+    margin: 0;
+}
+
+/* Card styles */
+.card {
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Thumbnail styles */
+.thumbnail {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .header {
+        padding: 1.5rem 0;
+    }
+
+    .card {
+        margin-bottom: 1.5rem;
+    }
+}
