@@ -48,12 +48,7 @@ The `main.js` file contains several functions:
 - **Image Preview**: The application provides an image preview when a user selects an image, which is a nice user-friendly feature.
 - **Progress Bar**: The application displays a progress bar while the image is being analyzed, which provides visual feedback to the user.
 
-## Conclusion
-
-Cleanest List is a well-structured application that demonstrates good practices in web development, such as using environment variables for
-
 ## Installation
-
 1. Clone the repository:
 
 ```bash
